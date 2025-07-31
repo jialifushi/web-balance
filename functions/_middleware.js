@@ -3,7 +3,7 @@ export async function onRequest(context) {
   const url = new URL(request.url);
 
   // IMPORTANT: Replace this with the actual target website you want to proxy
-  const targetUrl = new URL('https://example.com');
+  const targetUrl = new URL('https://search.789168.xyz');
 
   // Construct the new URL for the target service by preserving the path and search params
   targetUrl.pathname = url.pathname;
