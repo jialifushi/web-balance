@@ -1,0 +1,11 @@
+{
+  "name": "web-balance",
+  "version": "1.0.0",
+  "description": "A web proxy using edge functions.",
+  "main": "api/vercel_index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
